@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario1</title>
+    
+</head>
+<body>
+    <h1>Parametros con GET</h1>
+    <form action="https://www.google.com/webhp" method="GET"> 
+        <label>
+            <strong> Pesquisa</strong>
+            <input type="search" name="q">
+        </label>
+        <button type="submit">Pesquisar</button>
+        
+        
+        
+    </form>
+<h1>Cardapio de um Restaurante </h1>
+<form action="" method="post">
+    <p>
+        <label>Nome:
+            <input type="text" name='name' required>
+        </label>
+    </p>
+</form>
+
+    <fieldset>
+        <legend>Escolha de prato
+
+        </legend>
+        <p>
+            <label>
+                <input type="radio" name="main" value="m004" checked>
+                Strogonof de frango
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="main" value="m005" checked>
+                Filé de Peixe
+            </label>
+
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="main" value="m006" checked>
+                Macarrão
+            </label>
+
+        </p>
+        
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Acompanhamentos
+
+        </legend>
+        <label>Batata Frita</label>
+        <input type="checkbox" name="side" value="s001" checked>
+        <label>Salada</label>
+            <input type="checkbox" name="side" value="s002" checked>
+        
+<label>Feijão</label>
+            <input type="checkbox" name="side" value="s003" checked>
+        
+    </fieldset>
+<fieldset>
+    <legend>Bebidas</legend>
+    <p>
+        <label>Coca-Cola</label>
+        <input type="radio" name="drink" value="r001">
+    </p>
+    <p>
+        <label>Suco Natural</label>
+        <input type="radio" name="drink" value="r002">
+    </p>
+    <p>
+        <label>Cafe</label>
+        <input type="radio" name="drink" value="r003">
+    </p>
+</fieldset>
+
+<p>
+<label>Observações</label>
+<textarea name="notes" id="" cols="30" rows="10"></textarea>
+</p>
+<p>
+    <label>Forma de pagamento
+        <select name="payment">
+            <option value="cash">Dinheiro</option>
+            <option value="credit">Cartão de credito</option>
+            <option value="Debit">Cartão de debito</option>
+
+        </select>
+    </label>
+</p>
+<p>
+    <button type="reset">Recomençar pedido</button>
+    <button type="submit">Fazer pedido</button>
+</p>
+</body>
+</html>
